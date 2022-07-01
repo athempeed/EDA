@@ -21,6 +21,12 @@ namespace EmailService.Handlers
         {
             try
             {
+                if(message == null)
+                {
+                    _logger.LogError($"Message is null.");
+                    return;
+                }
+
                 _logger.LogInformation($"processing email : {JsonConvert.SerializeObject(message)}");
                 _graphClient.SendMail(message);
                 _logger.LogInformation($"email sent successfully to : ${message.To}");

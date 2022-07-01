@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDA", "EDA\EDA.csproj", "{D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDA.Core", "EDA.Core\EDA.Core.csproj", "{D57AD217-9288-4720-988D-7B41C72F88B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{9E28FA49-D070-422D-829D-91176E717C79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService", "EmailService\EmailService.csproj", "{9E28FA49-D070-422D-829D-91176E717C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDA.EmailService.Test", "EDA.Test\EDA.EmailService.Test.csproj", "{18F3F3B6-54F4-42FE-9157-EB735DB61894}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9E28FA49-D070-422D-829D-91176E717C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E28FA49-D070-422D-829D-91176E717C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E28FA49-D070-422D-829D-91176E717C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F3F3B6-54F4-42FE-9157-EB735DB61894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F3F3B6-54F4-42FE-9157-EB735DB61894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F3F3B6-54F4-42FE-9157-EB735DB61894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F3F3B6-54F4-42FE-9157-EB735DB61894}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
